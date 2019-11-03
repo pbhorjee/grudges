@@ -3,7 +3,7 @@ import NewGrudge from './NewGrudge';
 import Grudges from './Grudges';
 import './Application.css';
 
-import { withAuthenticator } from aws-amplify-React;
+import { withAuthenticator } from 'aws-amplify-react';
 
 class Application extends Component {
   state = {
